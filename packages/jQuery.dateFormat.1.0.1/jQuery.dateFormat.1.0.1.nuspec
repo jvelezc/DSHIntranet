@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>jQuery.dateFormat</id>
+    <version>1.0.1</version>
+    <title>jQuery dateFormat</title>
+    <authors>Pablo Cantero</authors>
+    <owners>Pablo Cantero</owners>
+    <projectUrl>https://github.com/phstc/jquery-dateFormat</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>jquery-dateFormat - it’s a jQuery Plugin that I made to formatting java.util.Date.toString output using JavaScript</description>
+    <summary>This plugin is also available on jQuery Plugin page
+
+plugins.jquery.com/project/jquery-dateFormat
+
+Blog post to explain the plugin usage
+
+pablocantero.com/blog/2010/09/04/jquery-plugin-javascript-for-</summary>
+    <copyright>Pablo Cantero</copyright>
+    <references />
+  </metadata>
+</package>

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+         @Styles.Render(
+            "~/Content/boilerplate-css", 
+            "~/Content/themes/base/css", 
+            "~/Content/css"
+        )
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+
+    <body>
+        <!--TODO write documentation of usage of RenderBody--> 
+        @RenderBody()
+    <footer>
+      @Scripts.Render(
+        "~/bundles/jquery",
+        "~/bundles/jqueryui",
+        "~/bundles/jqueryval",
+        "~/bundles/jsextlibs",
+        "~/bundles/jsapplibs"    
+       )
+        <!--Please see documentation for usage --> 
+        <!--TODO write documentation for scripts section--> 
+       @RenderSection("scripts", required: false)
+      </footer>    
+
+    </body>
+</html>
