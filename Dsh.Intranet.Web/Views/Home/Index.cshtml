@@ -1,1 +1,10 @@
-﻿
+﻿ <div>
+        <!-- ko foreach: security -->
+        <div data-bind="text: password()"></div>
+        <!-- /ko -->
+    </div>
+
+<!--This is this page dependencies--> 
+@section scripts{
+          @Scripts.Render("~/bundles/jsapplibs");
+    }
