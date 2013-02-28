@@ -141,6 +141,9 @@
     <Compile Include="App_Start\ValidationActionFilter.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\WebApi\ApiControllerBase.cs" />
+    <Compile Include="Controllers\WebApi\SecurityController.cs" />
+    <Compile Include="Controllers\WebApi\UtilityController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
