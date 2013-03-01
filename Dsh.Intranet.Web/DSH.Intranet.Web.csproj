@@ -140,6 +140,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\ValidationActionFilter.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\Coalinga\CoalingaAreaRegistration.cs" />
+    <Compile Include="Areas\Coalinga\Controllers\CoalingaHomeController.cs" />
+    <Compile Include="Areas\Metro\Controllers\MetroHomeController.cs" />
+    <Compile Include="Areas\Metro\MetroAreaRegistration.cs" />
+    <Compile Include="Areas\Nappa\NappaAreaRegistration.cs" />
+    <Compile Include="Areas\Patton\Controllers\PattonHomeController.cs" />
+    <Compile Include="Areas\Patton\PattonAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\WebApi\ApiControllerBase.cs" />
     <Compile Include="Controllers\WebApi\SecurityController.cs" />
@@ -216,6 +223,12 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Areas\Metro\Views\Web.config" />
+    <Content Include="Areas\Metro\Views\MetroHome\Index.cshtml" />
+    <Content Include="Areas\Coalinga\Views\Web.config" />
+    <Content Include="Areas\Coalinga\Views\CoalingaHome\Index.cshtml" />
+    <Content Include="Areas\Patton\Views\Web.config" />
+    <Content Include="Areas\Nappa\Views\Web.config" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\Custom\dshintranet.startup.js" />
     <Content Include="Scripts\Custom\dshintranet.serializer.js" />
@@ -254,7 +267,16 @@
     <Content Include="Scripts\TrafficCop.js" />
     <Content Include="Scripts\TrafficCop.min.gz.js" />
     <Content Include="Scripts\TrafficCop.min.js" />
-    <Content Include="Web.config" />
+    <TypeScriptCompile Include="Scripts\TypeScript\DataContext.ts" />
+    <Content Include="Scripts\TypeScript\DataContext.js">
+      <DependentUpon>DataContext.ts</DependentUpon>
+    </Content>
+    <Content Include="Scripts\TypeScript\DataContext.min.js">
+      <DependentUpon>DataContext.ts</DependentUpon>
+    </Content>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -286,6 +308,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Coalinga\Models\" />
+    <Folder Include="Areas\Coalinga\Views\Shared\" />
+    <Folder Include="Areas\Metro\Models\" />
+    <Folder Include="Areas\Metro\Views\Shared\" />
+    <Folder Include="Areas\Nappa\Controllers\" />
+    <Folder Include="Areas\Nappa\Models\" />
+    <Folder Include="Areas\Nappa\Views\Shared\" />
+    <Folder Include="Areas\Patton\Models\" />
+    <Folder Include="Areas\Patton\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

@@ -9,7 +9,8 @@
 
 my.dataService = new function () {
 
-    //getSecurity
+    //getSecurity 
+    
     getSecurity = function (callback) {
         $.getJSON('/api/security', function (data) {
             callback(data);
@@ -68,6 +69,7 @@ my.dataService = new function () {
         addSecurity: addSecurity,
         editSecurity: editSecurity,
         deleteSecurity: deleteSecurity,
+        
         sendMail: sendMail
     };
 }();
