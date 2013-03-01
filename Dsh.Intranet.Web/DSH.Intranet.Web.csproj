@@ -140,6 +140,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\ValidationActionFilter.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\Atascadero\AtascaderoAreaRegistration.cs" />
     <Compile Include="Areas\Coalinga\CoalingaAreaRegistration.cs" />
     <Compile Include="Areas\Coalinga\Controllers\CoalingaHomeController.cs" />
     <Compile Include="Areas\Metro\Controllers\MetroHomeController.cs" />
@@ -229,6 +230,7 @@
     <Content Include="Areas\Coalinga\Views\CoalingaHome\Index.cshtml" />
     <Content Include="Areas\Patton\Views\Web.config" />
     <Content Include="Areas\Nappa\Views\Web.config" />
+    <Content Include="Areas\Atascadero\Views\Web.config" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\Custom\dshintranet.startup.js" />
     <Content Include="Scripts\Custom\dshintranet.serializer.js" />
@@ -308,6 +310,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Atascadero\Controllers\" />
+    <Folder Include="Areas\Atascadero\Models\" />
+    <Folder Include="Areas\Atascadero\Views\Shared\" />
     <Folder Include="Areas\Coalinga\Models\" />
     <Folder Include="Areas\Coalinga\Views\Shared\" />
     <Folder Include="Areas\Metro\Models\" />
