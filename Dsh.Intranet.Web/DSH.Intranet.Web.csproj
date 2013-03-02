@@ -143,6 +143,7 @@
     <Compile Include="Areas\Atascadero\AtascaderoAreaRegistration.cs" />
     <Compile Include="Areas\Coalinga\CoalingaAreaRegistration.cs" />
     <Compile Include="Areas\Coalinga\Controllers\CoalingaHomeController.cs" />
+    <Compile Include="Areas\MenuAdmin\MenuAdminAreaRegistration.cs" />
     <Compile Include="Areas\Metro\Controllers\MetroHomeController.cs" />
     <Compile Include="Areas\Metro\MetroAreaRegistration.cs" />
     <Compile Include="Areas\Nappa\NappaAreaRegistration.cs" />
@@ -224,13 +225,18 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Areas\Metro\Views\Web.config" />
-    <Content Include="Areas\Metro\Views\MetroHome\Index.cshtml" />
     <Content Include="Areas\Coalinga\Views\Web.config" />
     <Content Include="Areas\Coalinga\Views\CoalingaHome\Index.cshtml" />
     <Content Include="Areas\Patton\Views\Web.config" />
     <Content Include="Areas\Nappa\Views\Web.config" />
     <Content Include="Areas\Atascadero\Views\Web.config" />
+    <Content Include="Areas\MenuAdmin\Views\Web.config" />
+    <Content Include="Areas\Atascadero\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Patton\Views\PattonHome\Index.cshtml" />
+    <Content Include="Areas\Metro\Views\Web.config" />
+    <Content Include="Areas\Metro\Views\MetroHome\Index.cshtml" />
+    <Content Include="Areas\Metro\Views\Shared\_commonLayout.cshtml" />
+    <Content Include="Areas\Metro\Views\_ViewStart.cshtml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\Custom\dshintranet.startup.js" />
     <Content Include="Scripts\Custom\dshintranet.serializer.js" />
@@ -269,6 +275,8 @@
     <Content Include="Scripts\TrafficCop.js" />
     <Content Include="Scripts\TrafficCop.min.gz.js" />
     <Content Include="Scripts\TrafficCop.min.js" />
+    <Content Include="Views\Shared\_Menu.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
     <TypeScriptCompile Include="Scripts\TypeScript\DataContext.ts" />
     <Content Include="Scripts\TypeScript\DataContext.js">
       <DependentUpon>DataContext.ts</DependentUpon>
@@ -300,7 +308,6 @@
     <Content Include="Images\orderedList7.png" />
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
-    <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -315,8 +322,10 @@
     <Folder Include="Areas\Atascadero\Views\Shared\" />
     <Folder Include="Areas\Coalinga\Models\" />
     <Folder Include="Areas\Coalinga\Views\Shared\" />
+    <Folder Include="Areas\MenuAdmin\Controllers\" />
+    <Folder Include="Areas\MenuAdmin\Models\" />
+    <Folder Include="Areas\MenuAdmin\Views\Shared\" />
     <Folder Include="Areas\Metro\Models\" />
-    <Folder Include="Areas\Metro\Views\Shared\" />
     <Folder Include="Areas\Nappa\Controllers\" />
     <Folder Include="Areas\Nappa\Models\" />
     <Folder Include="Areas\Nappa\Views\Shared\" />

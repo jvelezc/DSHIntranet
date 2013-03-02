@@ -28,7 +28,7 @@ namespace DSH.Intranet.Web
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             GlobalConfig.CustomizeConfig(GlobalConfiguration.Configuration);
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<DSHIntranetDbContext, Configuration>());
-
+        
         }
     }
 }
