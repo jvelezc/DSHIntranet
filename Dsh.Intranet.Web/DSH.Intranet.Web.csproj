@@ -141,11 +141,14 @@
     <Compile Include="App_Start\ValidationActionFilter.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Atascadero\AtascaderoAreaRegistration.cs" />
+    <Compile Include="Areas\Atascadero\Controllers\AtascaderoHomeController.cs" />
     <Compile Include="Areas\Coalinga\CoalingaAreaRegistration.cs" />
     <Compile Include="Areas\Coalinga\Controllers\CoalingaHomeController.cs" />
+    <Compile Include="Areas\MenuAdmin\Controllers\MenuAdminController.cs" />
     <Compile Include="Areas\MenuAdmin\MenuAdminAreaRegistration.cs" />
     <Compile Include="Areas\Metro\Controllers\MetroHomeController.cs" />
     <Compile Include="Areas\Metro\MetroAreaRegistration.cs" />
+    <Compile Include="Areas\Nappa\Controllers\NappaHomeController.cs" />
     <Compile Include="Areas\Nappa\NappaAreaRegistration.cs" />
     <Compile Include="Areas\Patton\Controllers\PattonHomeController.cs" />
     <Compile Include="Areas\Patton\PattonAreaRegistration.cs" />
@@ -242,6 +245,7 @@
     <Content Include="Areas\MenuAdmin\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Nappa\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Patton\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Atascadero\Views\AtascaderoHome\Index.cshtml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\Custom\dshintranet.startup.js" />
     <Content Include="Scripts\Custom\dshintranet.serializer.js" />
@@ -322,16 +326,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\Atascadero\Controllers\" />
     <Folder Include="Areas\Atascadero\Models\" />
     <Folder Include="Areas\Atascadero\Views\Shared\" />
     <Folder Include="Areas\Coalinga\Models\" />
     <Folder Include="Areas\Coalinga\Views\Shared\" />
-    <Folder Include="Areas\MenuAdmin\Controllers\" />
     <Folder Include="Areas\MenuAdmin\Models\" />
     <Folder Include="Areas\MenuAdmin\Views\Shared\" />
     <Folder Include="Areas\Metro\Models\" />
-    <Folder Include="Areas\Nappa\Controllers\" />
     <Folder Include="Areas\Nappa\Models\" />
     <Folder Include="Areas\Nappa\Views\Shared\" />
     <Folder Include="Areas\Patton\Models\" />
