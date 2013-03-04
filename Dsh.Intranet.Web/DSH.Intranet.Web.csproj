@@ -237,6 +237,11 @@
     <Content Include="Areas\Metro\Views\MetroHome\Index.cshtml" />
     <Content Include="Areas\Metro\Views\Shared\_commonLayout.cshtml" />
     <Content Include="Areas\Metro\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Atascadero\_ViewStart.cshtml" />
+    <Content Include="Areas\Coalinga\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\MenuAdmin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Nappa\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Patton\Views\_ViewStart.cshtml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\Custom\dshintranet.startup.js" />
     <Content Include="Scripts\Custom\dshintranet.serializer.js" />
