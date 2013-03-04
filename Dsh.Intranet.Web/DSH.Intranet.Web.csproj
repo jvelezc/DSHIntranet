@@ -144,7 +144,7 @@
     <Compile Include="Areas\Atascadero\Controllers\AtascaderoHomeController.cs" />
     <Compile Include="Areas\Coalinga\CoalingaAreaRegistration.cs" />
     <Compile Include="Areas\Coalinga\Controllers\CoalingaHomeController.cs" />
-    <Compile Include="Areas\MenuAdmin\Controllers\MenuAdminController.cs" />
+    <Compile Include="Areas\MenuAdmin\Controllers\MenuAdminHomeController.cs" />
     <Compile Include="Areas\MenuAdmin\MenuAdminAreaRegistration.cs" />
     <Compile Include="Areas\Metro\Controllers\MetroHomeController.cs" />
     <Compile Include="Areas\Metro\MetroAreaRegistration.cs" />
@@ -238,14 +238,15 @@
     <Content Include="Areas\Patton\Views\PattonHome\Index.cshtml" />
     <Content Include="Areas\Metro\Views\Web.config" />
     <Content Include="Areas\Metro\Views\MetroHome\Index.cshtml" />
-    <Content Include="Areas\Metro\Views\Shared\_commonLayout.cshtml" />
     <Content Include="Areas\Metro\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\Atascadero\_ViewStart.cshtml" />
     <Content Include="Areas\Coalinga\Views\_ViewStart.cshtml" />
     <Content Include="Areas\MenuAdmin\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Nappa\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Patton\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Atascadero\Views\AtascaderoHome\Index.cshtml" />
+    <Content Include="Areas\Metro\Views\Shared\_Menu.cshtml" />
+    <Content Include="Areas\Nappa\Views\NappaHome\Index.cshtml" />
+    <Content Include="Areas\MenuAdmin\Views\MenuAdminHome\Index.cshtml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\Custom\dshintranet.startup.js" />
     <Content Include="Scripts\Custom\dshintranet.serializer.js" />

@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace DSH.Intranet.Web.Areas.MenuAdmin.Controllers
 {
-    public class MenuAdminController : Controller
+    public class MenuAdminHomeController : Controller
     {
         //
-        // GET: /MenuAdmin/MenuAdmin/
+        // GET: /MenuAdmin/MenuAdminHome/
 
         public ActionResult Index()
         {
