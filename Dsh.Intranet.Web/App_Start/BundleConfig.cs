@@ -37,6 +37,11 @@ namespace DSH.Intranet.Web
             "~/Scripts/jquery.unobtrusive*",
             "~/Scripts/jquery.validate*"));
 
+            //BootStrap JS -basic javascript functionality
+            bundles.Add(new ScriptBundle("~/bundles/bootstrap.js").Include("~/Scripts/bootstrap.min.js"));
+        
+
+
             // 3rd Party JavaScript files
             bundles.Add(new ScriptBundle("~/bundles/jsextlibs")
                 .Include(
@@ -83,10 +88,12 @@ namespace DSH.Intranet.Web
                 "~/Content/boilerplate-normalize.css"
                 ));
 
-            // Author styles
+            // Author styles   +  //BootStrap CSS
             bundles.Add(new StyleBundle("~/Content/css")
                 .Include(
-                "~/Content/site.css"
+                "~/Content/site.css",
+                "~/Content/bootstrap.min.css",
+                "~/Content/bootstrap-responsive.min.css"
                 ));
 
             // jQuery UI styles

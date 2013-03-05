@@ -166,6 +166,8 @@
   <ItemGroup>
     <Content Include="Content\boilerplate-main.css" />
     <Content Include="Content\boilerplate-normalize.css" />
+    <Content Include="Content\bootstrap-responsive.min.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\themes\base\images\animated-overlay.gif" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -252,6 +254,7 @@
     <Content Include="Areas\ErrorHandler\Views\Web.config" />
     <Content Include="Areas\ErrorHandler\Views\ErrorHome\Index.cshtml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\Custom\dshintranet.startup.js" />
     <Content Include="Scripts\Custom\dshintranet.serializer.js" />
     <Content Include="Scripts\Custom\dshintranet.dataservice.js" />
@@ -291,7 +294,6 @@
     <Content Include="Scripts\TrafficCop.min.js" />
     <Content Include="Views\Shared\_Menu.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\_Footer.cshtml" />
     <TypeScriptCompile Include="Scripts\TypeScript\DataContext.ts" />
     <Content Include="Scripts\TypeScript\DataContext.js">
       <DependentUpon>DataContext.ts</DependentUpon>
