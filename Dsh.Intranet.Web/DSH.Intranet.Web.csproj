@@ -144,6 +144,8 @@
     <Compile Include="Areas\Atascadero\Controllers\AtascaderoHomeController.cs" />
     <Compile Include="Areas\Coalinga\CoalingaAreaRegistration.cs" />
     <Compile Include="Areas\Coalinga\Controllers\CoalingaHomeController.cs" />
+    <Compile Include="Areas\ErrorHandler\Controllers\ErrorHomeController.cs" />
+    <Compile Include="Areas\ErrorHandler\ErrorHandlerAreaRegistration.cs" />
     <Compile Include="Areas\MenuAdmin\Controllers\MenuAdminHomeController.cs" />
     <Compile Include="Areas\MenuAdmin\MenuAdminAreaRegistration.cs" />
     <Compile Include="Areas\Metro\Controllers\MetroHomeController.cs" />
@@ -247,6 +249,8 @@
     <Content Include="Areas\Metro\Views\Shared\_Menu.cshtml" />
     <Content Include="Areas\Nappa\Views\NappaHome\Index.cshtml" />
     <Content Include="Areas\MenuAdmin\Views\MenuAdminHome\Index.cshtml" />
+    <Content Include="Areas\ErrorHandler\Views\Web.config" />
+    <Content Include="Areas\ErrorHandler\Views\ErrorHome\Index.cshtml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\Custom\dshintranet.startup.js" />
     <Content Include="Scripts\Custom\dshintranet.serializer.js" />
@@ -287,6 +291,7 @@
     <Content Include="Scripts\TrafficCop.min.js" />
     <Content Include="Views\Shared\_Menu.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
     <TypeScriptCompile Include="Scripts\TypeScript\DataContext.ts" />
     <Content Include="Scripts\TypeScript\DataContext.js">
       <DependentUpon>DataContext.ts</DependentUpon>
@@ -331,6 +336,8 @@
     <Folder Include="Areas\Atascadero\Views\Shared\" />
     <Folder Include="Areas\Coalinga\Models\" />
     <Folder Include="Areas\Coalinga\Views\Shared\" />
+    <Folder Include="Areas\ErrorHandler\Models\" />
+    <Folder Include="Areas\ErrorHandler\Views\Shared\" />
     <Folder Include="Areas\MenuAdmin\Models\" />
     <Folder Include="Areas\MenuAdmin\Views\Shared\" />
     <Folder Include="Areas\Metro\Models\" />
