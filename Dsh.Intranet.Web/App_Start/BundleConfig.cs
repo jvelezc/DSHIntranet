@@ -96,13 +96,16 @@ namespace DSH.Intranet.Web
                 "~/Content/bootstrap/bootstrap.min.css",
                 "~/Content/bootstrap/bootstrap-responsive.min.css"
                 ));
-            //CaGov theme specific css 
+            //Ca.Gov theme specific css 
             bundles.Add(new StyleBundle("~/Content/themes/cagov600").Include(
                 "~/Content/themes/cagov/600.css"));
             bundles.Add(new StyleBundle("~/Content/themes/cagov768").Include(
             "~/Content/themes/cagov/768.css"));
             bundles.Add(new StyleBundle("~/Content/themes/cagov1280").Include(
-            "~/Content/themes/cagov/1280.css")); 
+            "~/Content/themes/cagov/1280.css"));
+            bundles.Add(new StyleBundle("~/Content/themes/cagovprintcss").Include(
+            "~/Content/themes/cagov/print.css")); 
+
             // jQuery UI styles
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
                         "~/Content/themes/base/jquery.ui.core.css",

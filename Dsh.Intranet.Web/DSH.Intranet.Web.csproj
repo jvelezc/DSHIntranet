@@ -166,6 +166,7 @@
   <ItemGroup>
     <Content Include="Content\boilerplate\boilerplate-main.css" />
     <Content Include="Content\boilerplate\boilerplate-normalize.css" />
+    <Content Include="Content\boilerplate\print.css" />
     <Content Include="Content\bootstrap\bootstrap-responsive.min.css" />
     <Content Include="Content\bootstrap\bootstrap.min.css" />
     <Content Include="Content\themes\base\images\animated-overlay.gif" />
@@ -230,6 +231,9 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
+    <Content Include="Content\themes\cagov\1280.css" />
+    <Content Include="Content\themes\cagov\600.css" />
+    <Content Include="Content\themes\cagov\768.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Areas\Coalinga\Views\Web.config" />
