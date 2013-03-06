@@ -84,16 +84,16 @@ namespace DSH.Intranet.Web
             // HTML Boilerplate styles
             bundles.Add(new StyleBundle("~/Content/boilerplate-css")
                 .Include(
-                "~/Content/boilerplate-main.css",
-                "~/Content/boilerplate-normalize.css"
+                "~/Content/boilerplate/boilerplate-main.css",
+                "~/Content/boilerplate/boilerplate-normalize.css"
                 ));
 
             // Author styles   +  //BootStrap CSS
             bundles.Add(new StyleBundle("~/Content/css")
                 .Include(
                 "~/Content/site.css",
-                "~/Content/bootstrap.min.css",
-                "~/Content/bootstrap-responsive.min.css"
+                "~/Content/bootstrap/bootstrap.min.css",
+                "~/Content/bootstrap/bootstrap-responsive.min.css"
                 ));
 
             // jQuery UI styles
