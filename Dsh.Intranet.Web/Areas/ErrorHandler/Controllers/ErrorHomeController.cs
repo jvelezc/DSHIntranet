@@ -13,6 +13,7 @@ namespace DSH.Intranet.Web.Areas.ErrorHandler.Controllers
 
         public ActionResult Index()
         {
+            int i = 1; //sendmail give url
             return View();
         }
 

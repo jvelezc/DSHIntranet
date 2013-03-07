@@ -49,7 +49,7 @@ namespace DSH.Intranet.Web
 
                     // jQuery plugins
                     "~/Scripts/TrafficCop.js",
-                    "~/Scripts/jquery.ba-hashchange.min.js",
+                  //  "~/Scripts/jquery.ba-hashchange.min.js",
                     "~/Scripts/jquery.blockUI.js",
 
                     // Knockout and its plugins
@@ -60,8 +60,14 @@ namespace DSH.Intranet.Web
                     // Other 3rd party libraries
                     "~/Scripts/jquery.easing.1.3.js",
                     "~/Scripts/jquery.dateFormat-1.0.js"
+
                     ));
 
+            bundles.Add(new ScriptBundle("~/bundles/Scripts/MegaMenu").Include(
+                "~/Scripts/MegaMenu/jquery.hoverIntent.minified",
+                "~/Scripts/MegaMenu/jquery.dcmegamenu.1.3.3.min"
+               
+                ));
             // Author application JS files
             bundles.Add(new ScriptBundle("~/bundles/jsapplibs")
 

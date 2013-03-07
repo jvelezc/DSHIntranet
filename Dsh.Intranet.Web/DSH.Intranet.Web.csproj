@@ -166,7 +166,32 @@
   <ItemGroup>
     <Content Include="Content\boilerplate\boilerplate-main.css" />
     <Content Include="Content\boilerplate\boilerplate-normalize.css" />
-    <Content Include="Content\boilerplate\print.css" />
+    <Content Include="Content\megamenu\dcmegamenu.css" />
+    <Content Include="Content\megamenu\skins\black.css" />
+    <Content Include="Content\megamenu\skins\blue.css" />
+    <Content Include="Content\megamenu\skins\green.css" />
+    <Content Include="Content\megamenu\skins\grey.css" />
+    <Content Include="Content\megamenu\skins\images\arrow.png" />
+    <Content Include="Content\megamenu\skins\images\arrow_off.png" />
+    <Content Include="Content\megamenu\skins\images\arrow_on.png" />
+    <Content Include="Content\megamenu\skins\images\bg_black.png" />
+    <Content Include="Content\megamenu\skins\images\bg_blue.png" />
+    <Content Include="Content\megamenu\skins\images\bg_green.png" />
+    <Content Include="Content\megamenu\skins\images\bg_grey.png" />
+    <Content Include="Content\megamenu\skins\images\bg_light_blue.png" />
+    <Content Include="Content\megamenu\skins\images\bg_mega_hdr.png" />
+    <Content Include="Content\megamenu\skins\images\bg_mega_hdr_full.png" />
+    <Content Include="Content\megamenu\skins\images\bg_mega_hdr_on.png" />
+    <Content Include="Content\megamenu\skins\images\bg_orange.png" />
+    <Content Include="Content\megamenu\skins\images\bg_red.png" />
+    <Content Include="Content\megamenu\skins\images\bg_sub.png" />
+    <Content Include="Content\megamenu\skins\images\bg_sub_left.png" />
+    <Content Include="Content\megamenu\skins\images\bg_white.png" />
+    <Content Include="Content\megamenu\skins\light_blue.css" />
+    <Content Include="Content\megamenu\skins\orange.css" />
+    <Content Include="Content\megamenu\skins\red.css" />
+    <Content Include="Content\megamenu\skins\white.css" />
+    <Content Include="Content\themes\cagov\print.css" />
     <Content Include="Content\bootstrap\bootstrap-responsive.min.css" />
     <Content Include="Content\bootstrap\bootstrap.min.css" />
     <Content Include="Content\themes\base\images\animated-overlay.gif" />
@@ -289,6 +314,9 @@
     <Content Include="Scripts\koExternalTemplateEngine.min.js" />
     <Content Include="Scripts\koExternalTemplateEngine_all.js" />
     <Content Include="Scripts\koExternalTemplateEngine_all.min.js" />
+    <Content Include="Scripts\MegaMenu\jquery.dcmegamenu.1.3.3.js" />
+    <Content Include="Scripts\MegaMenu\jquery.dcmegamenu.1.3.3.min.js" />
+    <Content Include="Scripts\MegaMenu\jquery.hoverIntent.minified.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\TrafficCop-amd.js" />
     <Content Include="Scripts\TrafficCop-amd.min.gz.js" />
@@ -298,13 +326,6 @@
     <Content Include="Scripts\TrafficCop.min.js" />
     <Content Include="Views\Shared\_Menu.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <TypeScriptCompile Include="Scripts\TypeScript\DataContext.ts" />
-    <Content Include="Scripts\TypeScript\DataContext.js">
-      <DependentUpon>DataContext.ts</DependentUpon>
-    </Content>
-    <Content Include="Scripts\TypeScript\DataContext.min.js">
-      <DependentUpon>DataContext.ts</DependentUpon>
-    </Content>
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
