@@ -1,49 +1,49 @@
 /*
 600 and greater
 
-Show poppies
 Navigation changes from vertical list to horizontal
-Move weather to upper right corner
 */
 
 .test_width span.mq600 {
 	background:#0f0;
 }
 
-.head_poppies {
-	display:block;
-	position:absolute;
-	top:62px;
-	right:80%;
+header {
+	min-height:188px;
 }
-.home .head_poppies {
-	top:27px;
+.home header {
+	min-height:390px;
 }
 
 .logo_and_banner {
-	margin:0 auto;
-	position:relative;
-	top:60px;
-	max-width:379px; /* 94 + 16 + 269 */
+	margin:0;
 }
 .home .logo_and_banner {
-	top:10px;
 }
 
-#weather_container {
+.head_cagov_logo { /* 94 x 74 */
+	display:block;
 	position:absolute;
-	top:45px; /* was 35px */
-	right:10px;
+	top:16px;
+	left:28px;
 }
-.home #weather_container {
-	top:10px; /* was 0px */
+
+.head_organization_banner { /* 269 x 39 */
+	max-width:269px;
+	margin:0 auto;
+	top:32px;
 }
+
+
 
 #head_search {
 	position:absolute;
 	top:10px;
 	width:30%;
 	right:10px;
+	margin:0 2px 2px 2px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
 }
 .home #head_search {
 	top:200px;
@@ -56,8 +56,6 @@ Move weather to upper right corner
 	position:absolute;
 	top:141px;
 	width:100%;
-	background-color: #494439; /* for ie8 */
-	background-color: rgba(0, 0, 0, 0.5);
 }
 .home #navigation {
 	top:106px;
@@ -69,7 +67,7 @@ Move weather to upper right corner
 
 .ie7 #navigation li {
 	float: left;
-	width:16.6%; /* fix IE7 issue where nav intermittently wraps */
+	width:16.6%; /* fix IE7 issue where nav intermittently wraps -- 100 / # of nav items */
 }
 .ie7 #navigation li li {
 	width:100%; /* fix IE7 */
@@ -86,8 +84,8 @@ Navigation - Mega Drop-Down
 	width:90%;
 	min-height:199px;
 	left:0px;
-	background:transparent url(../images/template2012/megadropdown_ribbon.png) no-repeat 70.3125% 100%;
-	background: url(../images/template2012/nav_shadow.png) repeat-x 0 0, url(../images/template2012/megadropdown_ribbon.png) no-repeat 70.3125% 100%;
+	/* background:transparent url(../images/template2012/orangecounty/megadropdown_ribbon.png) no-repeat 70.3125% 100%;
+	background: url(../images/template2012/nav_shadow.png) repeat-x 0 0, url(../images/template2012/orangecounty/megadropdown_ribbon.png) no-repeat 70.3125% 100%; */
 	padding:16px 5% 51px 5%;
 	overflow:visible;
 }
@@ -137,12 +135,10 @@ Navigation - Mega Drop-Down
 	color:#003366;
 	font-size:14px;
 	font-weight:bold;
-	background-color:#e1d7c3; /* Needed when images are turned off */
 }
 .nav_p_description {
 	font-size:11px;
 	padding-top:4px;
-	background-color:#e1d7c3; /* Needed when images are turned off */
 }
 
 .nav_d_arrow_container {
@@ -198,39 +194,14 @@ header #navigation.phone_show_nav {
 #mobile_container {
 	display:none;
 }
-.footer_awards, .footer_awards_right {
-	display:block;
-}
 
 /* more phone nav changes */
 
-header {
-	min-height:188px;
-}
-.home header {
-	min-height:390px;
-}
-
-.logo_and_banner {
-	width:90%;
-}
-
-.head_cagov_logo { /* 94 x 74 */
-	float:left;
-	width:24.802%; /* 94/379 */
-	position:relative;
-	top:4px;
-}
-.head_cagov_logo { /* 94 x 74 */
-	top:0px;
-}
-
-.head_organization_banner { /* 269 x 39 */
-	top:25px;
-}
-
 .phone_hdr, .rgba .phone_hdr, .ie7 .phone_hdr {
 	background-color: transparent;
+}
+.phone_hdr {
+	margin-bottom:0; /* fix IE9 issue where gap appears below header */
 }
 
 .phone_hd_left, .phone_hd_right {
@@ -240,24 +211,21 @@ header {
 #head_search {
 	display:block;
 }
-#weather_container {
-	display:block;
-}
 
 .home #img_ribbon {
 	width:100%;
 	height:95px;
-	background:transparent url(../images/template2012/ribbon_home.png) no-repeat 70.3125% 0%;
+	/* background:transparent url(../images/template2012/orangecounty/ribbon_home.png) no-repeat 70.3125% 0%; */
 }
 .home #main_content {
 	padding-top:38px; /* reserve space for ribbon */
 }
 .home #main_content {
-	background:#fff url(../images/template2012/footer_bg.png) no-repeat 70.3125% 100%;
+	/* background:#fff url(../images/template2012/orangecounty/footer_bg.png) no-repeat 70.3125% 100%; */
 	padding-bottom:65px;
 }
 .home .content_left_column {
-	background:#fff;
+	background:transparent;
 }
 
 .content_left_column .add_padding {
@@ -292,3 +260,4 @@ span.hide_from_phones {
 }
 
 /* end phone nav update */
+
