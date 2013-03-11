@@ -104,18 +104,6 @@ namespace DSH.Intranet.Web
                 ));
             //Ca.Gov theme specific css and scripts
             bundles.Add(new ScriptBundle("~/bundles/cagovscripts").Include("~/Scripts/cagovscripts.js"));
-            bundles.Add(new StyleBundle("~/Content/themes/cagov").Include(
-               "~/Content/themes/cagov/style.css",
-                "~/Content/themes/cagov/colorscheme_oceanside.css"
-               ));
-
-         
-            bundles.Add(new StyleBundle("~/Content/themes/cagov600").Include(
-                "~/Content/themes/cagov/600.css"));
-            bundles.Add(new StyleBundle("~/Content/themes/cagov768").Include(
-            "~/Content/themes/cagov/768.css"));
-            bundles.Add(new StyleBundle("~/Content/themes/cagov1280").Include(
-            "~/Content/themes/cagov/1280.css"));
             bundles.Add(new StyleBundle("~/Content/themes/cagovprintcss").Include(
             "~/Content/themes/cagov/print.css")); 
 
