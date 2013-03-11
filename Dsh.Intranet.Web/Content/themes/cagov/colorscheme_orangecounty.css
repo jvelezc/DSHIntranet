@@ -55,7 +55,7 @@ footer {
 
 }
 .style_d_triangle {
-	background:transparent url(../images/template2012/orangecounty/container_d_triangle.png) no-repeat;
+	background:transparent url(../cagov/images/template2012/orangecounty/container_d_triangle.png) no-repeat;
 }
 .style_d_gradient {
 	background: -moz-linear-gradient(top, rgba(245,221,182,0.9) 0%, rgba(245,221,182,0) 100%); /* FF3.6+ */
@@ -74,7 +74,7 @@ footer {
 @media only screen and (min-width: 600px) {
 
 	header {
-		background: #000 url(/images/template2012/orangecounty/header_sample.jpg) no-repeat 40% 40%;
+		background: #000 url(../cagov/images/template2012/orangecounty/header_sample.jpg) no-repeat 40% 40%;
 	}
 
 	#navigation {
@@ -86,10 +86,10 @@ footer {
 	}
 
 	.nav_panel {
-		background:transparent url(../images/template2012/orangecounty/megadropdown_ribbon.png) no-repeat 70.3125% 100%;
+		background:transparent url(../cagov/images/template2012/orangecounty/megadropdown_ribbon.png) no-repeat 70.3125% 100%;
 	}
 	.multiplebgs .nav_panel {
-		background: url(../images/template2012/nav_shadow.png) repeat-x 0 0, url(../images/template2012/orangecounty/megadropdown_ribbon.png) no-repeat 70.3125% 100%;
+		background: url(../cagov/images/template2012/nav_shadow.png) repeat-x 0 0, url(../images/template2012/orangecounty/megadropdown_ribbon.png) no-repeat 70.3125% 100%;
 	}
 
 	.nav_p_heading, .nav_p_description {
@@ -97,11 +97,11 @@ footer {
 	}
 
 	.home #img_ribbon {
-		background:transparent url(../images/template2012/orangecounty/ribbon_home.png) no-repeat 70.3125% 0%;
+		background:transparent url(../cagov/images/template2012/orangecounty/ribbon_home.png) no-repeat 70.3125% 0%;
 	}
 
 	.home #main_content {
-		background:#fff url(../images/template2012/orangecounty/footer_bg.png) no-repeat 70.3125% 100%;
+		background:#fff url(../cagov/images/template2012/orangecounty/footer_bg.png) no-repeat 70.3125% 100%;
 	}
 
 }
@@ -109,21 +109,21 @@ footer {
 @media only screen and (min-width: 768px) {
 
 	.home.two_column #img_ribbon {
-		background:transparent url(../images/template2012/orangecounty/ribbon_home_two_column.png) no-repeat 70.3125% 0%;
+		background:transparent url(../cagov/images/template2012/orangecounty/ribbon_home_two_column.png) no-repeat 70.3125% 0%;
 	}
 	.two_column #main_content {
-		background: #fff url(../images/template2012/orangecounty/2column_bg.png) repeat-y 70.3125% 0%;
+		background: #fff url(../cagov/images/template2012/orangecounty/2column_bg.png) repeat-y 70.3125% 0%;
 	}
 	.home #main_content {
-		background: url(../images/template2012/orangecounty/footer_bg.png) no-repeat 70.3125% 100%;
+		background: url(../cagov/images/template2012/orangecounty/footer_bg.png) no-repeat 70.3125% 100%;
 		background-color:#fff;
 	}
 	.home.two_column #main_content {
-		background: url(../images/template2012/orangecounty/footer_bg.png) no-repeat 70.3125% 100%,  url(../images/template2012/orangecounty/2column_bg.png) repeat-y 70.3125% 0%;
+		background: url(../cagov/images/template2012/orangecounty/footer_bg.png) no-repeat 70.3125% 100%,  url(../images/template2012/orangecounty/2column_bg.png) repeat-y 70.3125% 0%;
 		background-color:#fff;
 	}
 	.ie7 .home.two_column #main_content, .ie8 .home.two_column #main_content {
-		background: #fff url(../images/template2012/orangecounty/2column_bg.png) repeat-y 70.3125% 0%;
+		background: #fff url(../cagov/images/template2012/orangecounty/2column_bg.png) repeat-y 70.3125% 0%;
 	}
 
 }
@@ -139,7 +139,7 @@ footer {
 		background: linear-gradient(to right,  #484439 0%,#726a53 50%,#484439 100%); /* W3C */
 	}
 	.oldie body {
-		background:#484439 url(../images/template2012/orangecounty/body_background.gif) repeat-y 50% 0%;
+		background:#484439 url(../cagov/images/template2012/orangecounty/body_background.gif) repeat-y 50% 0%;
 	}
 
 	header, #main_content, footer {

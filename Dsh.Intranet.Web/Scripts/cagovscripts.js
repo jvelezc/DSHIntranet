@@ -264,11 +264,11 @@ function breadcrumbs()
 					path = '/';
 				}
 				path += arrURL[counter] + '/';  // always end links to folder with '/' 
-				output += ' <img src="/images/content/breadcrumb_divider.png" alt="" /> <a href="' + path + '">' + arrURL[counter].replace(/_/g,' ') + '</a>';
+				output += ' <img src="../cagov/images/content/breadcrumb_divider.png" alt="" /> <a href="' + path + '">' + arrURL[counter].replace(/_/g,' ') + '</a>';
 			}
 
 			// Display the name of the current page in bold
-			output += ' <img src="/images/content/breadcrumb_divider.png" alt="" /> <strong>' + arrURL[arrURL.length-1].replace(/_/g,' ').replace(/\.\w{3,5}$/,'') + '</strong>';
+			output += ' <img src="../cagov/images/content/breadcrumb_divider.png" alt="" /> <strong>' + arrURL[arrURL.length-1].replace(/_/g,' ').replace(/\.\w{3,5}$/,'') + '</strong>';
 		}
 
 		document.getElementById('breadcrumb_dynamic').innerHTML = output;  // Display the breadcrumbs

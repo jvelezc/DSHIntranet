@@ -34,7 +34,7 @@ COLOURS
   color: black !important;
   text-shadow: none !important;
   filter: none !important;
-  -ms-filter: none !important;
+  -ms-filter: "none" !important;
 }
 @page  {
   margin: 0.5cm;

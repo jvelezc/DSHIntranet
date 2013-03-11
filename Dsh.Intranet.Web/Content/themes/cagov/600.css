@@ -84,8 +84,8 @@ Navigation - Mega Drop-Down
 	width:90%;
 	min-height:199px;
 	left:0px;
-	/* background:transparent url(../images/template2012/orangecounty/megadropdown_ribbon.png) no-repeat 70.3125% 100%;
-	background: url(../images/template2012/nav_shadow.png) repeat-x 0 0, url(../images/template2012/orangecounty/megadropdown_ribbon.png) no-repeat 70.3125% 100%; */
+	background:transparent url(../cagov/images/template2012/orangecounty/megadropdown_ribbon.png) no-repeat 70.3125% 100%;
+	background: url(../cagov/images/template2012/nav_shadow.png) repeat-x 0 0, url(../cagov/images/template2012/orangecounty/megadropdown_ribbon.png) no-repeat 70.3125% 100%; 
 	padding:16px 5% 51px 5%;
 	overflow:visible;
 }
@@ -142,7 +142,7 @@ Navigation - Mega Drop-Down
 }
 
 .nav_d_arrow_container {
-	background:transparent url(../images/template2012/nav_down_arrow.png) no-repeat;
+	background:transparent url(../cagov/images/template2012/nav_down_arrow.png) no-repeat;
 	width:44px;
 	height:16px;
 	position:absolute;
@@ -172,6 +172,7 @@ Navigation - Mega Drop-Down
 	height:auto;
 	overflow:visible;
 	-webkit-transition: height 0s; /* Safari and Chrome */
+	background-color: rgba(0, 0, 0, 0.5);/*This is a css3 feature works ie9++*/
 }
 #nav_list {
 	position:static;
@@ -215,13 +216,13 @@ header #navigation.phone_show_nav {
 .home #img_ribbon {
 	width:100%;
 	height:95px;
-	/* background:transparent url(../images/template2012/orangecounty/ribbon_home.png) no-repeat 70.3125% 0%; */
+	 background:transparent url(../cagov/images/template2012/orangecounty/ribbon_home.png) no-repeat 70.3125% 0%; 
 }
 .home #main_content {
 	padding-top:38px; /* reserve space for ribbon */
 }
 .home #main_content {
-	/* background:#fff url(../images/template2012/orangecounty/footer_bg.png) no-repeat 70.3125% 100%; */
+	background:#fff url(../cagov/images/template2012/orangecounty/footer_bg.png) no-repeat 70.3125% 100%; 
 	padding-bottom:65px;
 }
 .home .content_left_column {

@@ -1,1 +1,179 @@
 ﻿
+
+<header role="banner">
+	<div id="skip_to_content"><a href="#main_content">Skip to Main Content</a></div>
+
+	<div class="phone_hdr">
+		<div class="phone_hd_left">
+			<a class="p_h_button p_h_menu" onclick="toggle_menu();"><img src="@Url.Content("~/Cotent/themes/cagov/images/template2012/clear.gif")" alt="Menu" /></a>
+			<!-- <a class="p_h_button p_h_mobile_gallery" href="/Mobile/"><img src="../cagov/images/template2012/clear.gif" alt="Mobile Gallery" /></a> -->
+		</div>
+		<div class="phone_hd_right">
+			<a class="p_h_button p_h_contact" href="/Contact.html"><img src="@Url.Content("~/Cotent/themes/cagov/images/template2012/clear.gif")" alt="Contact Us" /></a>
+			<a class="p_h_button p_h_search" onclick="toggle_search();"><img src="@Url.Content("~/Cotent/themes/cagov/images/template2012/clear.gif")" alt="Search" /></a>
+		</div>
+		<div class="logo_and_banner">
+			<div class="head_cagov_logo"><a href="#"><img src="@Url.Content("~/Content/themes/cagov/images/template2012/header_ca.gov.png")" alt="CA.gov" /></a></div>
+			<div class="head_organization_banner"><a href="/"><img src="@Url.Content("~/Content/themes/cagov/images/template2012/header_organization.png")" alt="Organization Title" /></a></div>
+		</div>
+	</div>
+
+	<div id="head_search">
+		<form id="local_form" action=""> <!-- the form action will be changed using javascript -->
+			<div class="textfield_container">
+				<label for="search_local_textfield" accesskey="s" class="hidden">Search this site: </label>
+				<input type="text" name="search" id="search_local_textfield" size="40" autocomplete="off" value="Search" onfocus="if(this.value=='Search')this.value=''" onblur="if(this.value=='')this.value='Search'" />
+
+				<input type="hidden" name="cx" value="001779225245372747843:mdsmtl_vi1a" /> <!-- update this value with your search engine unique ID. Submit a request to the OTech Service Desk if you don't already know your unique search engine ID. -->
+				<input type="hidden" name="cof" value="" /> <!-- this value will be set using javascript -->
+				<input type="hidden" name="ie" value="UTF-8" />
+
+			</div>
+			<div class="submit_container clearfix">
+				<input type="image" alt="Search" title="Search" name="submit" src="@Url.Content("~/Content/themes/cagov/images/template2012/clear.gif")"" />
+			</div>
+		</form>
+	</div>
+	
+	<nav id="navigation">
+		<ul id="nav_list">
+			<li><a href="/" class="nav_level1_link"><span id="nav_home_container"></span><img src="@Url.Content("~/Content/themes/cagov/images/template2012/clear.gif")" alt="Home" />&nbsp;</a>
+			</li>
+			<li><a href="/link1/" class="nav_level1_link">Link 1</a>
+				<div class="nav_panel">
+					<ul>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+					</ul>
+					<ul>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+					</ul>
+					<ul>  
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+					</ul>
+					<div class="nav_d_arrow_container"></div>
+				</div>
+			</li>
+			<li><a href="/link2/" class="nav_level1_link">Link 2</a>
+				<div class="nav_panel">
+					<ul>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+					</ul>
+					<ul>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						
+					</ul>
+					<ul>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+					</ul>
+					<div class="nav_d_arrow_container"></div>
+				</div>
+			</li>
+			<li><a href="/" class="nav_level1_link">Link 3</a>
+				<div class="nav_panel">
+					<ul>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+					</ul>
+					<ul>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+					</ul>
+					<ul>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+					</ul>
+					<div class="nav_d_arrow_container"></div>
+				</div>
+			</li>
+			<li><a href="/" class="nav_level1_link">Link 4</a>
+				<div class="nav_panel">
+					<ul>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+					</ul>
+					<ul>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+					</ul>
+					<ul>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+					</ul>
+					<div class="nav_d_arrow_container"></div>
+				</div>
+			</li>
+			<li class="last_nav_item"><a href="/" class="nav_level1_link">Link 5</a>
+				<div class="nav_panel">
+					<ul>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+					</ul>
+					<ul>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+					</ul>
+					<ul>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+						<li><a href="/" class="nav_p_heading">Dropdown Sublink</a> 
+						<div class="nav_p_description">Lorem ipsum dolor sit amet consectetur adipisicing</div></li>
+					</ul>
+					<div class="nav_d_arrow_container"></div>
+				</div>
+			</li>
+		</ul>
+	</nav>
+	<div id="img_ribbon"></div>
+</header>

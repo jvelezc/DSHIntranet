@@ -250,11 +250,12 @@ header, #main_content, footer {
 }
 
 header {
-	/* background: #000 url(/images/template2012/orangecounty/header_sample.jpg) no-repeat 40% 40%; */
+	background: #000 url(../cagov/images/template2012/orangecounty/header_sample.jpg) no-repeat 40% 40%; 
 	background-size: cover;
 	position:relative;
 	z-index:10;
 }
+
 .home header {
 	min-height:0;
 	background-position:40% 40%;
@@ -311,13 +312,13 @@ header {
 	position:absolute;
 	top:-3px;
 	right:4px;
-	background:transparent url(../images/template2012/header_search_submitbutton.png) no-repeat 0 0;
+	background:transparent url(../cagov/images/template2012/header_search_submitbutton.png) no-repeat 0 0;
 	background-size:cover;
 	width:40px; /* was 26 */
 	height:40px;
 }
 .ie7 .submit_container, .ie8 .submit_container {
-	background:transparent url(../images/template2012/header_search_submitbutton.png) no-repeat -11px -11px;
+	background:transparent url(../cagov/images/template2012/header_search_submitbutton.png) no-repeat -11px -11px;
 }
 .submit_container:hover {
 	background-position:0 100%;
@@ -345,6 +346,7 @@ header {
 	width:60px;
 	height:60px;
 }
+
 
 
 #navigation {
@@ -391,6 +393,7 @@ header {
 	text-align:center;
 }
 
+
 .highlighted_nav_item a.nav_level1_link {
 	text-shadow: 0 0 0.2em #ce770e;
 }
@@ -414,7 +417,7 @@ header #navigation #nav_list li:hover a.nav_level1_link #nav_home_container {
 	margin-left:-20px;
 	height:40px;
 	width:40px;
-	background: transparent url(../images/template2012/nav_home.png) no-repeat 0 0;
+	background: transparent url(../cagov/images/template2012/nav_home.png) no-repeat 0 0;
 }
 #nav_home_container + img {
 	width:40px;
@@ -461,16 +464,16 @@ header #navigation #nav_list li:hover a.nav_level1_link #nav_home_container {
 	margin:12px 6px 12px 6px;
 }
 .p_h_menu {
-	background:transparent url(/images/template2012/phone_nav.png) no-repeat 0 0;
+	background:transparent url(../cagov/images/template2012/phone_nav.png) no-repeat 0 0;
 }
 .p_h_mobile_gallery {
-	background:transparent url(/images/template2012/phone_nav.png) no-repeat -50px 0;
+	background:transparent url(../cagov/images/template2012/phone_nav.png) no-repeat -50px 0;
 }
 .p_h_contact {
-	background:transparent url(/images/template2012/phone_nav.png) no-repeat -100px 0;
+	background:transparent url(../cagov/images/template2012/phone_nav.png) no-repeat -100px 0;
 }
 .p_h_search {
-	background:transparent url(/images/template2012/phone_nav.png) no-repeat -150px 0;
+	background:transparent url(../cagov/images/template2012/phone_nav.png) no-repeat -150px 0;
 }
 
 #head_search {
@@ -489,7 +492,7 @@ header #navigation #nav_list li:hover a.nav_level1_link #nav_home_container {
 
 
 #main_content {
-	background:#fff url(../images/template2012/nav_shadow.png) repeat-x;
+	background:#fff url(../cagov/images/template2012/nav_shadow.png) repeat-x;
 }
 .ie7 #main_content {
 	background:#fff;
@@ -497,7 +500,7 @@ header #navigation #nav_list li:hover a.nav_level1_link #nav_home_container {
 
 .content_left_column {
 	min-height:100px;
-	background:#fff url(../images/template2012/nav_shadow.png) repeat-x;
+	background:#fff url(../cagov/images/template2012/nav_shadow.png) repeat-x;
 	margin:0;
 	padding:1px 0 20px 0;
 }
@@ -577,7 +580,7 @@ h1 {
 	color:#c60;
 	font-size:2em;
 
-	background:transparent url(../images/template2012/icon_blue_arrow_down.png) no-repeat top left; /* remove this from the template */
+	background:transparent url(../cagov/images/template2012/icon_blue_arrow_down.png) no-repeat top left; /* remove this from the template */
 	margin-left:-40px;
 	padding-left:40px;
 }
@@ -619,12 +622,12 @@ h5 {
 }
 
 .add_icon_blue_arrow_right {
-	background:transparent url(../images/template2012/icon_blue_arrow_right.png) no-repeat top left;
+	background:transparent url(../cagov/images/template2012/icon_blue_arrow_right.png) no-repeat top left;
 	margin-left:-40px;
 	padding-left:40px;
 }
 .add_icon_blue_star {
-	background:transparent url(../images/template2012/icon_blue_star.png) no-repeat top left;
+	background:transparent url(../cagov/images/template2012/icon_blue_star.png) no-repeat top left;
 	margin-left:-40px;
 	padding-left:40px;
 }
@@ -641,51 +644,51 @@ h5 {
 }
 
 .add_icon_brown_road {
-	background-image:url(../images/template2012/icon_brown_road.png);
+	background-image:url(../cagov/images/template2012/icon_brown_road.png);
 }
 .add_icon_brown_arrow_right {
-	background-image:url(../images/template2012/icon_brown_arrow_right.png);
+	background-image:url(../cagov/images/template2012/icon_brown_arrow_right.png);
 }
 .add_icon_brown_arrow_up {
-	background-image:url(../images/template2012/icon_brown_arrow_up.png);
+	background-image:url(../cagov/images/template2012/icon_brown_arrow_up.png);
 }
 .add_icon_brown_i {
-	background-image:url(../images/template2012/icon_brown_i.png);
+	background-image:url(../cagov/images/template2012/icon_brown_i.png);
 }
 .add_icon_brown_links {
-	background-image:url(../images/template2012/icon_brown_links.png);
+	background-image:url(../cagov/images/template2012/icon_brown_links.png);
 }
 .add_icon_brown_rss {
-	background-image:url(../images/template2012/icon_brown_rss.png);
+	background-image:url(../cagov/images/template2012/icon_brown_rss.png);
 }
 
 .add_icon_black_asterisk {
-	background-image:url(../images/template2012/icon_black_asterisk.png);
+	background-image:url(../cagov/images/template2012/icon_black_asterisk.png);
 }
 
 .add_icon_orange_arrow_right {
-	background-image:url(../images/template2012/icon_orange_arrow_right.png);
+	background-image:url(../cagov/images/template2012/icon_orange_arrow_right.png);
 }
 .add_icon_orange_rss {
-	background-image:url(../images/template2012/icon_orange_rss.png);
+	background-image:url(../cagov/images/template2012/icon_orange_rss.png);
 }
 .add_icon_orange_star {
-	background-image:url(../images/template2012/icon_orange_star.png);
+	background-image:url(../cagov/images/template2012/icon_orange_star.png);
 }
 .add_icon_orange_i {
-	background-image:url(../images/template2012/icon_orange_i.png);
+	background-image:url(../cagov/images/template2012/icon_orange_i.png);
 }
 .add_icon_orange_links {
-	background-image:url(../images/template2012/icon_orange_links.png);
+	background-image:url(../cagov/images/template2012/icon_orange_links.png);
 }
 .add_icon_orange_onlineforms {
-	background-image:url(../images/template2012/icon_orange_onlineforms.png);
+	background-image:url(../cagov/images/template2012/icon_orange_onlineforms.png);
 }
 .add_icon_orange_onlineservices {
-	background-image:url(../images/template2012/icon_orange_onlineservices.png);
+	background-image:url(../cagov/images/template2012/icon_orange_onlineservices.png);
 }
 .add_icon_orange_road {
-	background-image:url(../images/template2012/icon_orange_road.png);
+	background-image:url(../cagov/images/template2012/icon_orange_road.png);
 }
 
 
@@ -748,7 +751,7 @@ h5 {
 .style_d_triangle {
 	width:32px;
 	height:21px;
-	/* background:transparent url(../images/template2012/orangecounty/container_d_triangle.png) no-repeat; */
+	/* background:transparent url(../cagov/images/template2012/orangecounty/container_d_triangle.png) no-repeat; */
 	position:absolute;
 	bottom:-21px;
 	left:50%;
