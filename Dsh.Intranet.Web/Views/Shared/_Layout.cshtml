@@ -12,7 +12,6 @@
           This: <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
           <httpProtocol>
              <customHeaders>
-             <clear />
              <add name="X-UA-Compatible" value="IE=Edge,chrome=1" />
              </customHeaders>
             </httpProtocol>
@@ -41,7 +40,7 @@
         </style>
     </head>
 
-    <body>
+    <body class="group">
         <!--TODO write documentation of usage of _Menu--> 
         @Html.Partial("_Menu")
         @RenderBody()
