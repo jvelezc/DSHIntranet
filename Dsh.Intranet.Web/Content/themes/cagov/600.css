@@ -219,12 +219,12 @@ header #navigation.phone_show_nav {
 	 background:transparent url(../cagov/images/template2012/orangecounty/ribbon_home.png) no-repeat 70.3125% 0%; 
 }
 .home #main_content {
-	padding-top:38px; /* reserve space for ribbon */
-}
-.home #main_content {
-	background:#fff url(../cagov/images/template2012/orangecounty/footer_bg.png) no-repeat 70.3125% 100%; 
+	padding-top:38px; /* reserve space for ribbon */	
+    background:#fff url(../cagov/images/template2012/orangecounty/footer_bg.png) no-repeat 70.3125% 100%; 
 	padding-bottom:65px;
 }
+
+
 .home .content_left_column {
 	background:transparent;
 }

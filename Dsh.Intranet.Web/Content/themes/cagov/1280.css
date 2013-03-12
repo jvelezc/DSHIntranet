@@ -23,7 +23,7 @@ header, #main_content, footer {
 	font-weight:bold;
 	width:100%;
 	z-index:-1;
-}
+}@import url('1280.css');
 
 .home #background_decorative {
 	top:106px;

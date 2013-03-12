@@ -263,6 +263,7 @@
     <Content Include="Content\themes\cagov\992.css" />
     <Content Include="Content\themes\cagov\colorscheme_oceanside.css" />
     <Content Include="Content\themes\cagov\colorscheme_orangecounty.css" />
+    <Content Include="Content\themes\cagov\stickyfooter.css" />
     <Content Include="Content\themes\cagov\images\content\breadcrumb_divider.png" />
     <Content Include="Content\themes\cagov\images\content\bullet_blue_disc.png" />
     <Content Include="Content\themes\cagov\images\content\bullet_blue_disc_down.png" />
