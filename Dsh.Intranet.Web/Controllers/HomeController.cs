@@ -12,7 +12,10 @@ namespace Dsh.Intranet.Web.Controllers
         {
             return View();
         }
-
+        public ActionResult FormTemplate()
+        {
+            return View(); 
+        }
      
     }
 }

@@ -19,13 +19,11 @@
         <meta name="Keywords" content="@ViewBag.KeyWords ,Department of State Hospitals Intranet" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
        
-       @Styles.Render(
-            "~/Content/boilerplate-css", 
-            "~/Content/themes/base/css", 
-            "~/Content/css"
-        )
+
         @Scripts.Render("~/bundles/modernizr")
         
+
+
         <!--Specific to DSH starts here--> 
         <link href="~/Content/themes/cagov/style.css" rel="stylesheet" />
         <link href="~/Content/themes/cagov/600.css" rel="stylesheet" />
@@ -33,7 +31,11 @@
         <!--Specific to DSH ends here--> 
         <link href="~/Content/themes/cagov/stickyfooter.css" rel="stylesheet" />
         <link href="~/Content/Site.css" rel="stylesheet" />
-        
+         @Styles.Render(
+            "~/Content/boilerplate-css", 
+            "~/Content/themes/base/css", 
+            "~/Content/css/bootstrap"
+        )
 
     </head>
 
@@ -41,8 +43,9 @@
         <!--TODO write documentation of usage of _Menu--> 
         @Html.Partial("_Menu")
         <div id="main_content"  class="group">
-            
-            @RenderBody()
+            <div class="container-fluid">
+                @RenderBody()
+             </div>
             <div class="push"></div>
         </div>
     <footer>

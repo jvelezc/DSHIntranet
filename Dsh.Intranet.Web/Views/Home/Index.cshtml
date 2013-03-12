@@ -1,70 +1,55 @@
 ﻿@{
 	ViewBag.Title = "DSH";
 	ViewBag.Description = "Department of State Hospitals";
-    ViewBag.SDC = "home";
+	ViewBag.SDC = "home";
 
-    /*Possible values for SDC 
-      1.home 
-      2.two_column
-     
-     */
+	/*Possible values for SDC 
+	  1.home 
+	  2.two_column
+	 
+	 */
  } 
-
-<!--
-    Using twitter bootstrap instead of ca.gov styles-
-    Why? Because this will guarantee that all our html follows the same structure.
-    Without a framework to dictate how things should be coded we end up with many styles of writting html.
-    -->
-
-
-<div class="container-fluid">
 <div class="span3">
-          <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-              <li class="nav-header">Sidebar</li>
-              <li class="active"><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="nav-header">Sidebar</li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="nav-header">Sidebar</li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-            </ul>
-          </div><!--/.well -->
-        </div>
+		
+	  <div class="well" style="padding: 8px 0;">
+		<ul class="nav nav-list">
+		  <li class="nav-header">List header</li>
+		  <li class="active"><a href="#">Home</a></li>
+		  <li><a href="#">Library</a></li>
+		  <li><a href="#">Applications</a></li>
+		  <li class="nav-header">Another list header</li>
+		  <li><a href="#">Profile</a></li>
+		  <li><a href="#">Settings</a></li>
+		  <li class="divider"></li>
+		  <li><a href="#">Help</a></li>
+		</ul>
+	  </div>
+	</div>
 
 
-<div class="span9">
-         
-          <div class="row-fluid">
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details »</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details »</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details »</a></p>
-            </div><!--/span-->
-          </div><!--/row-->
-    
-        </div>
+<div class="span12">
+		 
+		  <div class="row-fluid">
+			<div class="span4">
+			  <h2>Heading</h2>
+			  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+			  <p><a class="btn" href="#">View details »</a></p>
+			</div><!--/span-->
+			<div class="span4">
+			  <h2>Heading</h2>
+			  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+			  <p><a class="btn" href="#">View details »</a></p>
+			</div><!--/span-->
+			<div class="span4">
+			  <h2>Heading</h2>
+			  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+			  <p><a class="btn" href="#">View details »</a></p>
+			</div><!--/span-->
+		  </div><!--/row-->
+	
+		</div>
 
-    </div>
+
 
 @section scripts{
 		  @Scripts.Render("~/bundles/jsapplibs")

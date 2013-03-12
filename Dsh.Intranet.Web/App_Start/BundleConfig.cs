@@ -96,11 +96,11 @@ namespace DSH.Intranet.Web
                 ));
 
             // Author styles   +  //BootStrap CSS
-            bundles.Add(new StyleBundle("~/Content/css")
+            bundles.Add(new StyleBundle("~/Content/css/bootstrap")
                 .Include(
-                "~/Content/site.css",
                 "~/Content/bootstrap/bootstrap.min.css",
-                "~/Content/bootstrap/bootstrap-responsive.min.css"
+                "~/Content/bootstrap/bootstrap-responsive.min.css",
+                "~/Content/bootstrap/readable.css"
                 ));
             //Ca.Gov theme specific css and scripts
             bundles.Add(new ScriptBundle("~/bundles/cagovscripts").Include("~/Scripts/cagovscripts.js"));

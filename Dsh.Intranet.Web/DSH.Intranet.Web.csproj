@@ -166,6 +166,7 @@
   <ItemGroup>
     <Content Include="Content\boilerplate\boilerplate-main.css" />
     <Content Include="Content\boilerplate\boilerplate-normalize.css" />
+    <Content Include="Content\bootstrap\readable.css" />
     <Content Include="Content\megamenu\dcmegamenu.css" />
     <Content Include="Content\megamenu\skins\black.css" />
     <Content Include="Content\megamenu\skins\blue.css" />
@@ -456,6 +457,7 @@
     <Content Include="packages.config" />
     <None Include="readme.txt" />
     <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\Home\FormTemplate.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

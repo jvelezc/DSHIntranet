@@ -12,7 +12,7 @@ html, body {
 
 }
 footer, .push {
-	height: 143px; /* .push must be the same height as .footer */
+	height: 200px; /* .push must be the same height as .footer */
 }
 
 
