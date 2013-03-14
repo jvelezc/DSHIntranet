@@ -12,7 +12,23 @@ namespace Dsh.Intranet.Web.Controllers
         {
             return View();
         }
+
+  
+        public ActionResult FaqTemplate()
+        {
+            return View();
+        }
+
         public ActionResult FormTemplate()
+        {
+            return View(); 
+        }
+
+        public ActionResult RightSideBarTemplate()
+        {
+            return View();
+        }
+        public ActionResult TwoColTemplate()
         {
             return View(); 
         }

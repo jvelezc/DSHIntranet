@@ -38,7 +38,7 @@ namespace DSH.Intranet.Web
             "~/Scripts/jquery.validate*"));
 
             //BootStrap JS -basic javascript functionality
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap.js").Include("~/Scripts/bootstrap.min.js"));
+            //bundles.Add(new ScriptBundle("~/bundles/bootstrapjs").Include("~/Scripts/bootstrap.min.js"));
         
 
 
